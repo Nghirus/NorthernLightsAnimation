@@ -10,28 +10,31 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/lightsImageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_northern_lights" />
+        android:background="@drawable/ic_northern_lights"/>
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/frame_anim_button_text" />
+        android:text="@string/frame_anim_button_text"
+        android:onClick="toggleFrameAnim"/>
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/rotate_anim_button_text" />
+        android:text="@string/rotate_anim_button_text"
+        android:onClick="toggleRotateAnim"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/shake_anim_button_text" />
+        android:text="@string/shake_anim_button_text"
+        android:onClick="toggleShakeAnim"/>
 
     <Button
         android:id="@+id/button4"
